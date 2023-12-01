@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import img from '../ASSESETS/eGENCY.png'
 import bike from '../ASSESETS/bike.png'
 // import { BiMenuAltRight } from 'react-icons/bi';
-import { motion, useAnimate, useAnimation, useInView} from "framer-motion";
+// import { motion } from "framer-motion";
 
 function Home() {
     const [Menuopen, setMenuopen] = useState(false);
@@ -29,8 +29,8 @@ function Home() {
            <p className='p-0.5 sign font-semibold'>Sign in</p>
            <button className='text-white p-1 rounded-t rounded-b font-semibold'>Sign up</button>
         </div>
-
-        {/* <button className='bars block md:hidden sm:block' onClick={()=>setMenuopen((prev)=>!prev)}>
+{/* 
+        <button className='bars block md:hidden sm:block' onClick={()=>setMenuopen((prev)=>!prev)}>
             <BiMenuAltRight size={30}/>
         </button> */}
     </section>
@@ -38,14 +38,8 @@ function Home() {
    
 
 
-    <motion.section  
-    variants={{
-        hidden: {opacity: 0, y: -100 },
-        visible: {opacity: 1, y:0 },
-    }}
-    initial ="hidden"
-    animate ="visible"
-    transition={{duration: 0.5, delay: 0.25}}
+    <section  
+   
   className='grid grid-cols-2 items-center jxx'>
         <img src={bike} alt="" />
         <div>
@@ -61,7 +55,7 @@ function Home() {
             
         <button className='button border-2 butt mt-10 text-white p-2 font-bold rounded-t rounded-b'>Contact us</button>
         </div>
-    </motion.section>
+    </section>
 </header> 
  )
 }
