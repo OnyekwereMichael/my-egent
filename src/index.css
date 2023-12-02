@@ -81,20 +81,21 @@ button{
     }
     .jxx{
     grid-template-columns: 1fr;
+  
 }
 .wed{
-    font-size: 30px
+    font-size: 27px
 }
 .we{
     @apply text-center mt-5;
-    font-size: 42px
+    font-size: 27px;
 }
 .scra{
-    @apply  p-3 pl-10;
-    font-size: 24px
+    @apply  p-3 pl-10 font-normal;
+    font-size: 18px
 }
 .suu{
-    @apply mb-8
+    @apply mb-7
 }
 .foo{
     @apply   m-0 gap-7 pt-0 mt-0 flex-wrap ;
@@ -112,7 +113,7 @@ button{
     @apply left-36
 }
 .scraa{
-    @apply text-2xl;
+    @apply text-xl font-normal;
 }
 .hj, .hg{
     @apply mt-0

@@ -111,15 +111,14 @@ function Main() {
               <div>
               <section className='flex justify-end -mt-36'>
             <img src={board} alt="" />
-        </section>
+            </section>
              <p className='p-2 font-semibold'>We scratch, play and build together</p>
             <h1 className='text-3xl font-bold pt-2 wed'>We scratch, play and build together</h1>
-            <div className='pt-3 suu'>
-            <p className=' lorem  font-semibold text-  scraa'>We want you to enjoy your travels.
-                This is why</p>
-            <p className=' lorem  font-semibold text-lg scraa'>we don't change any
-                fees on purchase while</p>
-            <p className=' lorem  font-semibold text-lg scraa'> you're abroad. We'll even show you...</p>
+            <div className="pt-7 suu">
+            <p className=' lorem  font-semibold text-lg scraa'>We want you to enjoy your travels.
+                This is why we don't change any
+                fees on purchase while you're
+                abroad. We'll even show you...</p>
             </div>
             </div>
         </section>
@@ -128,15 +127,17 @@ function Main() {
             <img src={read} alt=""/>
             <div className='absolute bottom-64 ju'>
                       <span><input type="text" placeholder='write your mail address'className='rounded p-1 span'/></span>
-                      <span><button className='ml-4 p-1 rounded text-white sub'>Subscribe</button></span>
+                      <span><a href="mailto:onyekweremichael55@gmail.com"><button className='ml-4 p-1 rounded text-white sub'>Subscribe</button></a></span>
             </div>
         </section>
 
-        <section className='mt-12 font-semibold text-3xl noo'>
+        <section className='mt-12 font-semibold text-3xl noo ml-8'>
             <p>The best design for your studio design</p>
         </section>
         <section className='flex justify-between items-center flex-wrap yes'>
-        <motion.div whileHover={{scale: 1.1}} className='m-10 w-60 rounded bg-gray-200 yes'>
+        <motion.div whileHover={{scale: 1.1}}
+        
+        transition={{duration:0.5, delay: 0.25}} className='m-10 w-60 rounded bg-gray-200 yes'>
           <p className='text-3xl font-bold m-3'>Audit</p>
             <p className='text-sm pb-14 m-3'>We want you to enjoy your travels.
                 This is why we don't change any

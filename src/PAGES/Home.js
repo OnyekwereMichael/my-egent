@@ -49,13 +49,11 @@ function Home() {
   className='grid grid-cols-2 items-center jxx'>
         <img src={bike} alt="" />
         <div>
-            <h1 className='text-5xl font-bold we '>We scratch, build<br/> and play together</h1>
-            <div className='pt-4'>
+            <h1 className='text-5xl font-bold we'>We scratch, build and play together</h1>
+            <div className="pt-4">
             <p className=' lorem  font-semibold text-lg scra'>We want you to enjoy your travels.
-                This is why</p>
-            <p className=' lorem  font-semibold text-lg scra'>we don't change any
-                fees on purchase while</p>
-            <p className=' lorem  font-semibold text-lg scra'>you're
+                This is why we don't change any
+                fees on purchase while you're
                 abroad. We'll even show you...</p>
             </div>
             
