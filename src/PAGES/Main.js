@@ -147,7 +147,8 @@ function Main() {
             <button className='w-60 rounded-b p-2 butt1'>Experienced Team</button>
         </motion.div>
 
-        <motion.div whileHover={{scale: 1.1}}  className='m-10 w-60 rounded bg-gray-200 yes'>
+        <motion.div whileHover={{scale: 1.1}} 
+         transition={{duration:0.5, delay: 0.25}} className='m-10 w-60 rounded bg-gray-200 yes'>
           <p className='font-bold text-3xl m-3 '>Teamwork</p>
             <p className='text-sm pb-14 m-3'>We want you to enjoy your travels.
                 This is why we don't change any
@@ -157,7 +158,8 @@ function Main() {
             <button className='w-60 rounded-b p-2 butt2'>Experienced Team</button>
         </motion.div>
 
-        <motion.div whileHover={{scale: 1.1}} className='m-10 w-60 rounded bg-gray-200 yes'>
+        <motion.div whileHover={{scale: 1.1}} 
+        transition={{duration:0.5, delay: 0.25}} className='m-10 w-60 rounded bg-gray-200 yes'>
           <p className='font-bold text-3xl m-3 '>Create</p>
             <p className='text-sm pb-14 m-3'>We want you to enjoy your travels.
                 This is why we don't change any
