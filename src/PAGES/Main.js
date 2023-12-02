@@ -4,9 +4,9 @@ import run from "../ASSESETS/running.png";
 import read from "../ASSESETS/reader.png";
 import seed from "../ASSESETS/seed.png";
 import circle from "../ASSESETS/circle.png";
-// import { FaCartPlus, FaMailBulk, FaTicketAlt, FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa";
+import { FaCartPlus, FaMailBulk, FaTicketAlt, FaFacebook, FaTwitter, FaInstagram} from "react-icons/fa";
 import board from '../ASSESETS/board.png';
-// import { motion, useAnimate, useAnimation, useInView, useDragControls, useInstantTransition } from "framer-motion";
+import { motion } from "framer-motion";
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/css';
 
@@ -72,11 +72,11 @@ function Main() {
         <section>
         <div className='flex justify-between items-center gap-4 ml-4 mt-12 p-12 anim font-semibold'>
                <div>
-               {/* <FaCartPlus className="text-yellow-900"/> */}
+               <FaCartPlus className="text-yellow-900"/>
                 <p>Lorem ipsum dolor sit amet consect <br/>etur adipisicing elit. Animi hte.</p>
                 </div>
                 <div>
-                {/* <FaMailBulk className="text-red-900"/> */}
+                <FaMailBulk className="text-red-900"/>
                 <p>Lorem ipsum dolor sit amet consect<br/>etur adipis icing elit. Animi h3d.</p>
                 </div>
             </div>
@@ -85,22 +85,22 @@ function Main() {
         <section>
             <div className='flex justify-around items-center gap-12 p-12 stack font-semibold'>
                 <div>
-                {/* <FaFacebook className="text-blue-800"/> */}
+                <FaFacebook className="text-blue-800"/>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div>
 
                 <div>
-                {/* <FaTwitter className="text-blue-400"/> */}
+                <FaTwitter className="text-blue-400"/>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div>
 
                 <div>
-                {/* <FaInstagram className="text-pink-800"/> */}
+                <FaInstagram className="text-pink-800"/>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div>
 
                 <div>
-                {/* <FaTicketAlt className="text-orange-700"/> */}
+                <FaTicketAlt className="text-orange-700"/>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae sunt laboriosam ab quibusdam facilis.</p>
                 </div> 
             </div>
@@ -136,7 +136,7 @@ function Main() {
             <p>The best design for your studio design</p>
         </section>
         <section className='flex justify-between items-center flex-wrap yes'>
-        <div className='m-10 w-60 rounded bg-gray-200 yes'>
+        <motion.div whileHover={{scale: 1.1}} className='m-10 w-60 rounded bg-gray-200 yes'>
           <p className='text-3xl font-bold m-3'>Audit</p>
             <p className='text-sm pb-14 m-3'>We want you to enjoy your travels.
                 This is why we don't change any
@@ -144,9 +144,9 @@ function Main() {
                 abroad. We'll even show you...
             </p>
             <button className='w-60 rounded-b p-2 butt1'>Experienced Team</button>
-        </div>
+        </motion.div>
 
-        <div   className='m-10 w-60 rounded bg-gray-200 yes'>
+        <motion.div whileHover={{scale: 1.1}}  className='m-10 w-60 rounded bg-gray-200 yes'>
           <p className='font-bold text-3xl m-3 '>Teamwork</p>
             <p className='text-sm pb-14 m-3'>We want you to enjoy your travels.
                 This is why we don't change any
@@ -154,9 +154,9 @@ function Main() {
                 abroad. We'll even show you...
             </p>
             <button className='w-60 rounded-b p-2 butt2'>Experienced Team</button>
-        </div>
+        </motion.div>
 
-        <div className='m-10 w-60 rounded bg-gray-200 yes'>
+        <motion.div whileHover={{scale: 1.1}} className='m-10 w-60 rounded bg-gray-200 yes'>
           <p className='font-bold text-3xl m-3 '>Create</p>
             <p className='text-sm pb-14 m-3'>We want you to enjoy your travels.
                 This is why we don't change any
@@ -164,7 +164,7 @@ function Main() {
                 abroad. We'll even show you...
             </p>
             <button className='w-60 p-2 rounded-b butt3'>Experienced Team</button>
-        </div>
+        </motion.div>
         </section>
 
     </main>
