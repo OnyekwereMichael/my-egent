@@ -53,7 +53,7 @@ function Home() {
         </motion.div>
         <motion.div
          variants={{
-            hidden: {opacity: 0, x:"-100vw" },
+            hidden: {opacity: 0, x:"100vw" },
             visible: {opacity: 1, x:0 },
         }}
         initial ="hidden"
