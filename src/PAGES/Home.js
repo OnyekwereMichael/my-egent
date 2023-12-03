@@ -38,8 +38,7 @@ function Home() {
    
 
 
-    <motion.section  
-   
+    <section  
   className='grid grid-cols-2 items-center jxx'>
       <motion.div 
       variants={{
@@ -48,18 +47,18 @@ function Home() {
     }}
     initial ="hidden"
     animate ="visible"
-    transition={{duration: 1, delay: 0.5, typeof: "spring", stiffness: 120}}
+    transition={{duration: 1.5, delay: 0.5, type: "spring", stiffness: 100}}
       >
           <img src={bike} alt="" />
         </motion.div>
         <motion.div
          variants={{
-            hidden: {opacity: 0, x:"100vw" },
+            hidden: {opacity: 0, x:"-100vw" },
             visible: {opacity: 1, x:0 },
         }}
         initial ="hidden"
         animate ="visible"
-        transition={{duration: 1, delay: 0.5, typeof: "spring", stiffness: 120}}
+        transition={{duration: 1.5, delay: 0.5, type: "spring", stiffness: 100}}
         >
             <h1 className='text-5xl font-bold we'>We scratch, build and play together</h1>
             <div className="pt-4">
@@ -71,7 +70,7 @@ function Home() {
             
         <button className='button border-2 butt mt-10 text-white p-2 font-bold rounded-t rounded-b'>Contact us</button>
         </motion.div>
-    </motion.section>
+    </section>
 </header> 
  )
 }
