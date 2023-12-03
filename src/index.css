@@ -7,7 +7,7 @@ header{
 }
 body{
     background-color: hsl(0, 0%, 96%);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow-x: hidden; */
 }
 ul:not(.active):hover{
@@ -61,6 +61,14 @@ button{
  }
  }
 
+ @media screen and (max-width: 300px) {
+    .yes{
+    @apply ml-7 w-80;
+    }
+    .butt1, .butt2, .butt3{
+        @apply w-80
+    }
+    }
 
 
 @media screen and (max-width: 500px) {
@@ -155,14 +163,7 @@ button{
 }
 
 }
-    @media screen and (max-width: 500px) {
-        .yes{
-        @apply ml-7 w-80;
-        }
-        .butt1, .butt2, .butt3{
-            @apply w-80
-        }
-        }
+  
 
      
 
