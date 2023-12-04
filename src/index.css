@@ -7,7 +7,7 @@ header{
 }
 body{
     background-color: hsl(0, 0%, 96%);
-    /* max-width: 100%; */
+    max-width: 100%;
     /* border: 2px solid red; */
     /* overflow-x: hidden; */
 }
@@ -63,7 +63,7 @@ button{
     @apply pl-4
  }
  }
-/* 
+
  @media screen and (max-width: 300px) {
     .yes{
     @apply ml-5 w-64;
@@ -71,7 +71,7 @@ button{
     .butt1, .butt2, .butt3{
         @apply w-80
     }
-    } */
+    }
 
 
 @media screen and (max-width: 500px) {
@@ -152,7 +152,7 @@ button{
   @apply font-bold
 }
 .yes{
-    /* @apply ml-6 w-64 ; */
+    @apply ml-6 w-64 ;
 }
 
 .butt1, .butt2, .butt3{
