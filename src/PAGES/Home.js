@@ -47,18 +47,18 @@ function Home() {
     }}
     initial ="hidden"
     animate ="visible"
-    transition={{duration: 1.5, delay: 0.5, type: "spring", stiffness: 100}}
+    transition={{duration: 0.5, delay: 0.5, type: "spring", stiffness: 100}}
       >
           <img src={bike} alt="" />
         </motion.div>
         <motion.div
          variants={{
-            hidden: {opacity: 0, x:"100vw" },
+            hidden: {opacity: 0, x:"-100vw" },
             visible: {opacity: 1, x:0 },
         }}
         initial ="hidden"
         animate ="visible"
-        transition={{duration: 1.5, delay: 0.5, type: "spring", stiffness: 100}}
+        transition={{duration: 0.5, delay: 0.5, type: "spring", stiffness: 100}}
         >
             <h1 className='text-5xl font-bold we'>We scratch, build and play together</h1>
             <div className="pt-4">

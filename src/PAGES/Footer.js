@@ -56,7 +56,7 @@ function Footer() {
     </section>
      
    
-     <section className='flex justify-end items-center gap-6 pl-6 pr-6 font-bold'>
+     <section className='flex justify-end items-center gap-6 pl-6 pr-6 font-bold nah'>
         <span>Newyork</span>
         <span>Dubia</span>
         <span>Dhaka</span>

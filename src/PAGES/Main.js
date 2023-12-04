@@ -134,7 +134,7 @@ function Main() {
         <section className='mt-12 font-semibold text-3xl noo ml-8'>
             <p>The best design for your studio design</p>
         </section>
-        <section className='flex justify-between items-center flex-wrap yes'>
+        <section className='flex justify-between items-center flex-wrap yes '>
         <motion.div  className='m-10 w-60 rounded bg-gray-200 yes'>
           <p className='text-3xl font-bold m-3'>Audit</p>
             <p className='text-sm pb-14 m-3'>We want you to enjoy your travels.

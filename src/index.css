@@ -7,6 +7,7 @@ header{
 }
 body{
     background-color: hsl(0, 0%, 96%);
+    max-width: 100%;
     /* border: 2px solid red; */
     /* overflow-x: hidden; */
 }
@@ -46,6 +47,8 @@ button{
     background-color: #FFBD6D;
 }
 
+
+
 @media screen and (max-width: 1100px) {
     .we{
   @apply text-4xl mt-12 pt-12
@@ -63,7 +66,7 @@ button{
 
  @media screen and (max-width: 300px) {
     .yes{
-    @apply ml-7 w-80;
+    @apply ml-5 w-64;
     }
     .butt1, .butt2, .butt3{
         @apply w-80
@@ -149,11 +152,11 @@ button{
   @apply font-bold
 }
 .yes{
-    @apply ml-6 w-96;
+    @apply ml-6 w-64 ;
 }
 
 .butt1, .butt2, .butt3{
-    @apply w-80
+    @apply w-64
 }
 .nft{
   width: 100%;
@@ -161,8 +164,11 @@ button{
    margin-top: 20px;
    padding-top: 20px;
 }
-
+.nah{
+    @apply text-center
 }
+}
+
   
 
      
