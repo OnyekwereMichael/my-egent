@@ -100,7 +100,7 @@ button{
     font-size: 18px
 }
 .suu{
-    @apply mb-4
+    @apply mb-4 pt-5
 }
 .foo{
     @apply   m-0 gap-7 pt-0 mt-0 flex-wrap ;
@@ -167,6 +167,7 @@ button{
 .nah{
     @apply text-center
 }
+
 }
 
   
